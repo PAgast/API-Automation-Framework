@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="10" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-14T00:34:09 IST" name="Booking Suite" finished-at="2026-07-14T00:34:25 IST" duration-ms="16125">
+    <groups>
+    </groups>
+    <test started-at="2026-07-14T00:34:09 IST" name="CRUD Tests" finished-at="2026-07-14T00:34:25 IST" duration-ms="16125">
+      <class name="tests.PartialUpdateTest">
+        <test-method signature="partialUpdateBooking()[pri:0, instance:tests.PartialUpdateTest@46cdf8bd]" started-at="2026-07-14T00:34:15 IST" name="partialUpdateBooking" finished-at="2026-07-14T00:34:18 IST" duration-ms="3264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partialUpdateBooking -->
+      </class> <!-- tests.PartialUpdateTest -->
+      <class name="tests.CreateBookingTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateBookingTest@d86a6f]" started-at="2026-07-14T00:34:09 IST" name="setup" finished-at="2026-07-14T00:34:09 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createBooking()[pri:0, instance:tests.CreateBookingTest@d86a6f]" started-at="2026-07-14T00:34:09 IST" name="createBooking" finished-at="2026-07-14T00:34:12 IST" duration-ms="2793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+      </class> <!-- tests.CreateBookingTest -->
+      <class name="tests.GetBookingTest">
+        <test-method signature="getBooking()[pri:0, instance:tests.GetBookingTest@f0c8a99]" started-at="2026-07-14T00:34:18 IST" name="getBooking" finished-at="2026-07-14T00:34:20 IST" duration-ms="1650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBooking -->
+      </class> <!-- tests.GetBookingTest -->
+      <class name="tests.UpdateBookingTest">
+        <test-method signature="updateBooking()[pri:0, instance:tests.UpdateBookingTest@2a7f1f10]" started-at="2026-07-14T00:34:12 IST" name="updateBooking" finished-at="2026-07-14T00:34:15 IST" duration-ms="3220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBooking -->
+      </class> <!-- tests.UpdateBookingTest -->
+      <class name="tests.VerifyDeleteTest">
+        <test-method signature="verifyDeletebooking()[pri:0, instance:tests.VerifyDeleteTest@26d9b808]" started-at="2026-07-14T00:34:23 IST" name="verifyDeletebooking" finished-at="2026-07-14T00:34:25 IST" duration-ms="1637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeletebooking -->
+      </class> <!-- tests.VerifyDeleteTest -->
+      <class name="tests.DeleteBookingTest">
+        <test-method signature="deleteBooking()[pri:0, instance:tests.DeleteBookingTest@740cae06]" started-at="2026-07-14T00:34:20 IST" name="deleteBooking" finished-at="2026-07-14T00:34:23 IST" duration-ms="3543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBooking -->
+      </class> <!-- tests.DeleteBookingTest -->
+    </test> <!-- CRUD Tests -->
+  </suite> <!-- Booking Suite -->
+</testng-results>
