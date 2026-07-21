@@ -32,5 +32,6 @@ public class CreateBookingDataProviderTest extends BaseTest {
         System.out.println("Booking Created");
         System.out.println("Booking ID : " + bookingId);
         System.out.println("Name : " + firstName + " " + lastName);
+        logger.info("GitHub Webhook Test");
     }
 }
